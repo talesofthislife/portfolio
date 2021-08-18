@@ -1,0 +1,289 @@
+.main-page{
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-content-wrap{
+    padding-bottom: 20.125rem; 
+}
+.main-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20.125rem; 
+}
+
+.contact-padding{
+    padding-bottom: 110px;
+}
+
+
+.logoSpacing {
+    margin-left: 50px;
+}
+
+.headerLogoSpacing {
+    margin-left: 100px;
+}
+
+.navSpacing {
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-bottom: 50px;;
+}
+.greyish-bg {
+    background-color: #EEEEEE;
+}
+
+.paragraph-text {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.section-titles {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fontRoboto{
+    font-family: 'Roboto Slab', serif;
+}
+.fontOpenSans{
+    font-family: 'Open Sans', sans-serif;
+}
+.profile-img{
+    margin-top:50px;
+    width:232px ;
+    height:232px;
+}
+
+.work-img{
+    margin-top: 100px;
+    width:520px;
+    height: 250px;
+}
+
+.currently {
+    margin-bottom: 50px;
+}
+
+.white-bg{
+    background-color: #ffffff;
+}
+
+.darker-bg{
+    background-color: #1F1F1F;
+}
+.white-text{
+    color: #ffffff;
+}
+.my-tools-img{
+    width:300px;
+    height: 222px;
+    margin-bottom: 50px;
+}
+
+.just-dark-bg{
+    background-color:#000000
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-spacing{
+    margin-top:50px;
+}
+
+#sitemap-title{
+    margin-left:12px;
+}
+#sitemap-sections{
+    width:fit-content;
+
+}
+
+.icon-envelope{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.overlay.overlay-down{
+    transform: translateY(100%) ;
+    transition: all 1s ;
+    position: fixed; 
+    display: block;  
+    width: 100%;
+    height: 100vh; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 2; 
+    
+}
+
+.overlay.overlay-up{
+    transform: translateY(-100%) ;
+    transition: all 1s ;
+    position: fixed; 
+    display: block;  
+    width: 100%; 
+    height: 100vh; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-color: black; 
+    z-index: 2;     
+}
+
+.work-margin{
+    margin-bottom: 100px;
+}
+
+@media (min-width:280px)  {
+   
+    .work-img {
+        margin-top: 50px;
+        width:232px;
+        height: 111px;
+    }
+    .navSpacing {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .work-margin{
+        margin-bottom: 0px;
+    }
+
+}
+@media (min-width:320px)  {
+   
+    .work-img {
+        margin-top: 50px;
+        width:272px;
+        height: 130px;
+    }
+    .navSpacing {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .work-margin{
+        margin-bottom: 0px;
+    }
+   
+}
+
+@media (min-width:360px)  {
+   
+    .work-img {
+        margin-top: 50px;
+        width:312px;
+        height: 150px;
+    }
+    .navSpacing {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .work-margin{
+        margin-bottom: 0px;
+    }
+   
+}
+
+@media (min-width:411px)  {
+   
+    .work-img {
+        margin-top: 50px;
+        width:363px;
+        height: 174px;
+    }
+    .navSpacing {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .work-margin{
+        margin-bottom: 0px;
+    }
+   
+}
+@media (min-width:481px)  {
+  
+}
+@media (min-width:540px)  { 
+    .work-img {
+        margin-top: 50px;
+        width:492px;
+        height: 237px;
+    }
+    .navSpacing {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .work-margin{
+        margin-bottom: 0px;
+    }
+}
+@media (min-width:641px)  { 
+    .work-img {
+        margin-top: 50px;
+        width:216px;
+        height: 104px;
+    }
+    .navSpacing {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .work-margin{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+@media (min-width:1024px) { 
+    .navSpacing {
+        margin-top: 50px;
+        margin-right: 150px;
+        margin-bottom: 50px;;
+    }
+    .work-img{
+        margin-top: 100px;
+        width:295px;
+        height: 141px;
+    }
+    .work-margin{
+        margin-bottom: 100px;
+    }    
+   
+}
+@media (min-width:1281px) {
+    .navSpacing {
+        margin-top: 50px;
+        margin-right: 150px;
+        margin-bottom: 50px;;
+    }
+    .work-img{
+        margin-top: 100px;
+        width:356px;
+        height: 172px;
+    }
+    .work-margin{
+        margin-bottom: 100px;
+    }
+    
+}
