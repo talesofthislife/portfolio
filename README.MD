@@ -9,7 +9,7 @@ Built with Html, CSS, Bootstrap and Javascript.
 
 ## Screenshots and demo
 
-[https://marianikolaidou.dev/]
+[Maria Nikolaidou](https://marianikolaidou.dev/)
 
 ## Installation
 
