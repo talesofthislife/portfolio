@@ -27,6 +27,7 @@
 }
 
 .navSpacing {
+    margin-left: 50px;
     margin-top: 50px;
     margin-right: 150px;
     margin-bottom: 50px;;
@@ -53,18 +54,20 @@
 }
 .profile-img{
     margin-top:50px;
-    width:232px ;
-    height:232px;
+    max-width: 100%;
+    width:500px;
+    height: auto;
+}
+
+.experience-img {
+    float: right;
+    margin-bottom: 50px;
 }
 
 .work-img{
     margin-top: 100px;
     width:520px;
     height: 250px;
-}
-
-.currently {
-    margin-bottom: 50px;
 }
 
 .white-bg{
@@ -78,9 +81,10 @@
     color: #ffffff;
 }
 .my-tools-img{
-    width:300px;
-    height: 222px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    height: auto;
+    width:500px ;
 }
 
 .just-dark-bg{
@@ -111,6 +115,7 @@
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 .work-margin{
@@ -247,8 +252,11 @@ a {
     }
     .work-img{
         margin-top: 100px;
-        width:356px;
-        height: 172px;
+        max-width: 100%;
+        height: auto;
+        width:550px;
+        /* width:356px; */
+        /* height: 172px; */
     }
     .work-margin{
         margin-bottom: 100px;
